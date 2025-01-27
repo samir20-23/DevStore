@@ -6,7 +6,18 @@
 .hidden {
     display: none;
 }
-
+/* Default styles (for mobile) */
+#logo_img {
+    width: 50px; /* Example for mobile */
+  }
+  
+  /* Styles for desktop devices (min-width: 1024px) */
+  @media (min-width: 1024px) {
+    #logo_img {
+      width: 100px; /* Width for desktop */
+    }
+  }
+  
 .admin-bar,
 .admin-bar-small {
     z-index: 1000;
